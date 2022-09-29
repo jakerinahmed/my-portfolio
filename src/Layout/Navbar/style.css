@@ -1,0 +1,27 @@
+.nav-item {
+  padding: 10px;
+  font-weight: bold
+}
+
+.nav-item:hover {
+  background-color: #E0115F;
+  color: #14233c;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.navbar-main {
+  padding: 20px;
+  color: #E0115F;
+  min-height: 10vh;
+}
+
+.navbar-main {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: #14233c;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
