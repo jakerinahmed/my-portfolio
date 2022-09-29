@@ -6,8 +6,8 @@ import { NavBar, Headshot } from './Layout'
 function App() {
   return (
     <div>
-      <NavBar/>
-    <Headshot/>
+      <NavBar />
+      <Headshot />
     </div>
   );
 }

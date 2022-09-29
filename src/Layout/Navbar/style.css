@@ -1,6 +1,7 @@
 .nav-item {
   padding: 10px;
-  font-weight: bold
+  font-weight: bold;
+  color: #E0115F;
 }
 
 .nav-item:hover {
