@@ -11,6 +11,23 @@
   border-radius: 10px 10px 10px 10px;
 }
 
+.current {
+  padding: 10px;
+  font-family: Poppins;
+  background-color: #ED1D69;
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+.current:hover {
+  background-color: white;
+  color: #D81159;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+
 .navbar-main {
   padding: 20px;
   color: white;
