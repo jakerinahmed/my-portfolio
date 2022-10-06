@@ -1,26 +1,28 @@
 .nav-item {
   padding: 10px;
   font-weight: bold;
-  color: #E0115F;
+  font-family: Poppins;
+  color: white;
 }
 
 .nav-item:hover {
-  background-color: #E0115F;
-  color: #14233c;
+  background-color: white;
+  color: #D81159;
   border-radius: 10px 10px 10px 10px;
 }
 
 .navbar-main {
   padding: 20px;
-  color: #E0115F;
+  color: white;
   min-height: 10vh;
 }
 
 .navbar-main {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   overflow: hidden;
-  background-color: #14233c;
+  background-color: #D81159;
   position: sticky;
   top: 0; 
   width: 100%; 

@@ -5,15 +5,19 @@ const Headshot = () => {
     return (
         <div className='bg-color border-main'>
             <div className="home-container">
-                <div className="social_media_links">
-                    <h1 className='ruby-text'>&#128075; Hi, I'm Jakerin Ahmed</h1>
+                <div className="headshot">
+                    <h1 className='white-text'>&#128075; Hi, I'm Jakerin Ahmed</h1>
                     <br />
                     <img src="/IMG_5162.JPG" alt="Jakerin" width="150px" className="picture" />
                     <br />
-                    <h2 className="p-3 ruby-text">Full Stack Developer</h2>
-                    <a className="ruby-text mx-2" href="https://www.linkedin.com/in/syedul-jakerin-ahmed-3859041a8/"
-                    >Linkedin</a>
-                    <a className="ruby-text mx-2" href="https://github.com/jakerinahmed">GitHub</a>
+                    <h2 className="p-3 white-text">Full Stack Developer</h2>
+
+
+                        <a className="white-text mx-2 social_media_links" href="https://www.linkedin.com/in/syedul-jakerin-ahmed-3859041a8/"
+                        >Linkedin</a>
+                        <a className="white-text mx-2 social_media_links" href="https://github.com/jakerinahmed">GitHub</a>
+
+
                 </div>
             </div>
         </div>
