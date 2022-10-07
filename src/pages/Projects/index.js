@@ -4,7 +4,9 @@ import './style.css'
 const Projects = () => {
     return (
         <div className='container p-5'>
-            <h1>Some projects I've worked on</h1>
+            <div className='text-center'>
+                <h1>Some projects I've worked on</h1>
+            </div>
 
             <div className='container text-center'>
                 <div className='row'>
@@ -16,7 +18,7 @@ const Projects = () => {
                         <a href="https://github.com/jakerinahmed/project-1-front-end" target="_blank" rel="noopener noreferrer" className='project-links'>GitHub</a>
                     </div>
                     <div class="col-md-6 col-sm-4">
-                    <h3>Make It Happen</h3>
+                        <h3>Make It Happen</h3>
                         <img src='makeithappen.png' alt='Make It Happen' className='img-fit' />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptates laudantium saepe sint numquam iusto praesentium cumque nemo exercitationem architecto!</p>
                         <a href="https://github.com/karldudley/makeithappen" target="_blank" rel="noopener noreferrer" className='project-links'>GitHub</a>

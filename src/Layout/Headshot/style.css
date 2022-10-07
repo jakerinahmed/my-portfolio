@@ -6,7 +6,7 @@
     display: flex;
     align-items:center;
     justify-content: center;
-    min-height: 90vh;
+    min-height: 88.8vh;
   }
   
   .headshot {
@@ -50,5 +50,4 @@
   div div div img {
     border-radius: 10px 10px 10px 10px;
   }
-  
   

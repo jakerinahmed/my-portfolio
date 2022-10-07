@@ -5,20 +5,22 @@ const About = () => {
   return (
     <>
       <div className='container p-5'>
-        <h1>A bit about me...</h1>
-        
+        <div className='text-center'>
+          <h1>A bit about me...</h1>
+        </div>
+
         <div className='container'>
           <div className='row'>
 
-          <div className='col-md-6 col-sm-4 text-center'>
+            <div className='col-md-6 col-sm-4 text-center'>
 
-            <h1>Before coding</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, voluptatum voluptatibus. Ut modi adipisci quisquam minima mollitia, maxime asperiores quis debitis in fuga accusantium cumque similique ducimus. Dignissimos totam doloribus impedit? Dolorum saepe illo ea sint quae. Ipsa, provident unde animi perspiciatis esse non delectus dolorem eveniet sint nostrum. Minima quidem iure nulla dolore, laudantium consectetur ratione cupiditate saepe, deserunt eaque, possimus iste itaque animi? Ipsam provident ratione enim sed? Velit reiciendis fuga, sunt nisi veniam rerum aliquid qui corporis in maiores eos. Mollitia natus praesentium obcaecati voluptate expedita delectus architecto qui corrupti distinctio excepturi, pariatur saepe harum recusandae quidem?</p>
-          </div>
+              <h1>Before coding</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, voluptatum voluptatibus. Ut modi adipisci quisquam minima mollitia, maxime asperiores quis debitis in fuga accusantium cumque similique ducimus. Dignissimos totam doloribus impedit? Dolorum saepe illo ea sint quae. Ipsa, provident unde animi perspiciatis esse non delectus dolorem eveniet sint nostrum. Minima quidem iure nulla dolore, laudantium consectetur ratione cupiditate saepe, deserunt eaque, possimus iste itaque animi? Ipsam provident ratione enim sed? Velit reiciendis fuga, sunt nisi veniam rerum aliquid qui corporis in maiores eos. Mollitia natus praesentium obcaecati voluptate expedita delectus architecto qui corrupti distinctio excepturi, pariatur saepe harum recusandae quidem?</p>
+            </div>
 
-          <div className='col-md-6 col-sm-4 text-center'>
-            <img className='graduation' src='graduation.png'/>
-          </div>
+            <div className='col-md-6 col-sm-4 text-center'>
+              <img className='graduation' alt='graduation portrait' src='graduation.png' />
+            </div>
 
 
           </div>
